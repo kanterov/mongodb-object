@@ -19,8 +19,6 @@ from distutils.errors import CCompilerError
 from distutils.errors import DistutilsPlatformError, DistutilsExecError
 from distutils.core import Extension
 
-import mongodbobject
-
 requirements = []
 try:
     import pymongo
